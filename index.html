@@ -4,12 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
 
     <title>Symme.try_</title>
@@ -17,33 +25,49 @@
     <script defer src="symme-try.js"></script>
   </head>
   <body>
-    <div class="container">
-      <nav>
+    <nav>
+      <img
+        class="nav-logo"
+        alt="Logo navigation"
+        src="Grafiki/Logo/Symme.try Logo - noew prawidłowe.png"
+      />
+      <div>
+        <a href="#new-paintings">Paintings</a>
+        <a href="#">Posters</a>
+        <a href="#">About Us</a>
+      </div>
+    </nav>
+    <header>
+      <section class="showcase">
         <img
-          class="nav-logo"
-          alt="Logo navigation"
-          src="Grafiki/Logo/Symme.try Logo - noew prawidłowe.png"
+          src="Grafiki/Tło/Tło Strona.png"
+          alt="Showcase Image"
+          class="showcase-img"
         />
-        <!-- <p class="nav-logo--text">Symme.try_</p> -->
-        <div>
-          <a href="#paintings">Paintings</a>
-          <a href="#">Posters</a>
-          <a href="#">About Us</a>
-        </div>
-      </nav>
-      <header>
-        <section class="showcase">
+        <p class="showcase-text">We create art thinking about your interior</p>
+      </section>
+    </header>
+    <section id="new-paintings">
+        <h2>New paintings</h2>
+        <div class="container">
+        <div class="new--show">
           <img
-            src="Grafiki/Tło/Tło Strona.png"
-            alt="Showcase Image"
-            class="showcase-img"
+            src="Obrazy/Pollock/pollock-1.jpg"
+            alt="Pollock main pic"
+            class="new-painting--pic"
           />
-          <p class="showcase-text">
-            We create art thinking about your interior
-          </p>
-        </section>
-      </header>
-      <section class="new-paintings"></section>
+          <div class="painting-info">
+            <h3>Pollock in disturbed form</h3>
+            <div class="painting-description">
+              <p>60 x 80cm</p>
+              <p>
+                Acrylic with silver accents on 300g/m2 Italian cotton canvas
+              </p>
+              <p class="author">Daniel Kuciej</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="paintings">
         <div class="paintings-"></div>
       </section>
