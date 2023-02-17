@@ -25,12 +25,12 @@ nav {
 
 nav a {
   margin-right: 50px;
+  color: #343a40;
 }
 
 nav a:link,
 nav a:visited {
   text-decoration: none;
-  color: #343a40;
 }
 
 nav a:last-child {
@@ -39,6 +39,18 @@ nav a:last-child {
 
 nav img {
   height: 60px;
+}
+
+.btn--cart {
+  background-color: black;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.btn--cart:hover {
+  background-color: rgb(28, 28, 28);
 }
 
 .showcase-img {
@@ -87,7 +99,7 @@ h2 {
 }
 
 .painting-description {
-  line-height: 2;
+  line-height: 2.5;
 }
 
 .painting-info {
