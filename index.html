@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
 
     <title>Symme.try_</title>
@@ -11,18 +17,37 @@
     <script defer src="symme-try.js"></script>
   </head>
   <body>
-    <header>
-      <nav></nav>
-      <section class="showcase">
+    <div class="container">
+      <nav>
         <img
-          src="Grafiki/Tło/Tło Strona.png"
-          alt="Showcase Image"
-          class="showcase-img"
+          class="nav-logo"
+          alt="Logo navigation"
+          src="Grafiki/Logo/Symme.try Logo - noew prawidłowe.png"
         />
+        <!-- <p class="nav-logo--text">Symme.try_</p> -->
+        <div>
+          <a href="#paintings">Paintings</a>
+          <a href="#">Posters</a>
+          <a href="#">About Us</a>
+        </div>
+      </nav>
+      <header>
+        <section class="showcase">
+          <img
+            src="Grafiki/Tło/Tło Strona.png"
+            alt="Showcase Image"
+            class="showcase-img"
+          />
+          <p class="showcase-text">
+            We create art thinking about your interior
+          </p>
+        </section>
+      </header>
+      <section class="new-paintings"></section>
+      <section id="paintings">
+        <div class="paintings-"></div>
       </section>
-    </header>
-    <section class="new-paintings"></section>
-    <section class="paintings"></section>
-    <footer></footer>
+      <footer></footer>
+    </div>
   </body>
 </html>

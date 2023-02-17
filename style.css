@@ -3,3 +3,62 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+  color: #343a40;
+}
+
+.container {
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  margin: 0 100px;
+  align-items: center;
+}
+
+nav a {
+  margin-right: 50px;
+}
+
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  color: #343a40;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav img {
+  height: 60px;
+}
+
+.showcase-img {
+  width: 1200px;
+}
+
+.showcase {
+  position: relative;
+  background-color: black;
+}
+
+.nav-logo--text {
+  font-family: 'Indie Flower';
+  font-size: 30px;
+  /* font-weight: 400; */
+}
+
+.showcase-text {
+  font-family: 'Indie Flower';
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  color: #fff;
+  font-size: 36px;
+}
