@@ -122,8 +122,7 @@ nav img {
 
 /* PAINTINGS */
 #paintings {
-  margin: 0px 75px;
-  padding: 50px 0;
+  padding: 50px 75px;
   border-bottom: 1px solid #dee2e6;
 }
 
@@ -146,7 +145,8 @@ nav img {
 }
 
 .paintings-info {
-  margin-top: 20px;
+  width: 450px;
+  margin-top: 30px;
   line-height: 2;
   font-size: 16px;
 }
